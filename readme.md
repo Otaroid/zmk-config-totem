@@ -23,7 +23,7 @@ This README documents the active layout in:
 
 This keymap defines 6 primary layers:
 
-1. `BASE` – typing layer with homerow mods and layer-tap thumbs
+1. `BASE` – typing layer with home row mods and layer-tap thumbs
 2. `NAVI` – navigation, symbols, and numpad cluster
 3. `SYM` – symbols, media, and special characters
 4. `ADJ` – firmware/Bluetooth/output controls + function keys
@@ -39,7 +39,7 @@ It also defines:
 
 ## Key behaviors used in this layout
 
-- **Homerow mod-taps**: tap for letters, hold for modifiers (Alt/GUI/Shift/Ctrl)
+- **Home row mod-taps**: tap for letters, hold for modifiers (Alt/GUI/Shift/Ctrl)
 - **Layer-taps on thumbs**:
   - `&lt NAV TILDE` → tap `~`, hold `NAVI`
   - `&lt SYM GRAVE` → tap `` ` ``, hold `SYM`
@@ -163,8 +163,8 @@ Defined in `/config/totem.keymap`:
 - `tilde_combo`: `<0 20>` → `~`
 - `enter_combo`: `<13 12 11>` → `ENTER`
 - `enter_right_combo`: `<16 18 17>` → `ENTER`
-- `russian_letter_` (combo ID in keymap): `<8 9>` → `]`
-- `russian_letter_x` (combo ID in keymap): `<8 7>` → `[`
+- `russian_letter_` (verbatim combo ID from keymap): `<8 9>` → `]`
+- `russian_letter_x` (verbatim combo ID from keymap): `<8 7>` → `[`
 
 Combo timings are tuned with `timeout-ms` and optional `require-prior-idle-ms` for reduced accidental triggers.
 
