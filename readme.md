@@ -110,7 +110,7 @@ Purpose: shifted symbols, media controls, brightness, and locale-specific symbol
 
 | Left half | Right half |
 |---|---|
-| `! @ # $ %` | `^ & * ' "` |
+| `! @ # $ %` | `^ & * apostrophe quote` |
 | `RA(A) transparent transparent transparent transparent` | `MUTE PRINTSCREEN transparent transparent RA(O)` |
 | `transparent RA(F18) transparent transparent BRI- BRI+` | `VOL- VOL+ PREV NEXT \ transparent` |
 | thumbs include `MO(ADJ)` | includes `PLAY/PAUSE` |
@@ -163,8 +163,8 @@ Defined in `/config/totem.keymap`:
 - `tilde_combo`: `<0 20>` → `~`
 - `enter_combo`: `<13 12 11>` → `ENTER`
 - `enter_right_combo`: `<16 18 17>` → `ENTER`
-- `russian_letter_`: `<8 9>` → `]`
-- `russian_letter_x`: `<8 7>` → `[`
+- `russian_letter_` (combo ID in keymap): `<8 9>` → `]`
+- `russian_letter_x` (combo ID in keymap): `<8 7>` → `[`
 
 Combo timings are tuned with `timeout-ms` and optional `require-prior-idle-ms` for reduced accidental triggers.
 
