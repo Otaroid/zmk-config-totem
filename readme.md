@@ -110,8 +110,8 @@ Purpose: shifted symbols, media controls, brightness, and locale-specific symbol
 
 | Left half | Right half |
 |---|---|
-| `! @ # $ %` | `^ & * apostrophe quote` |
-| `RA(A) transparent transparent transparent transparent` | `MUTE PRINTSCREEN transparent transparent RA(O)` |
+| `! @ # $ %` | `^ & * ' \"` |
+| `RA(A) transparent transparent transparent transparent` | `MUTE PRINT_SCREEN transparent transparent RA(O)` |
 | `transparent RA(F18) transparent transparent BRI- BRI+` | `VOL- VOL+ PREV NEXT \ transparent` |
 | thumbs include `MO(ADJ)` | includes `PLAY/PAUSE` |
 
