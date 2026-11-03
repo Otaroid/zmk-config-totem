@@ -70,7 +70,15 @@ ClrAll  -     -     -   Boot   | Boot    -     -   PrtSc   -
 The left hand is set up for games: Q W E R P / 1 S D F 6 / Ctl 2 3 4 5 B, and the thumbs are 7, Alt and Space.
 To leave, press the bottom right outer key or the right outer thumb key.
 
-## Build and flash
+## Update the keyboard
+
+1. Edit the keymap with `zmk code totem`.
+2. Run `./update.sh`. It commits, pushes, waits for the build and flashes the left half.
+   Use `./update.sh both` after `.conf` or shield changes.
+3. Studio edits stay on the keyboard and cover the file. After you flash, press
+   "Restore Stock Settings" in Studio to see the new keymap.
+
+## Build and flash by hand
 
 1. Push to GitHub. Actions builds the firmware.
 2. Download `firmware.zip` from the Actions run.
